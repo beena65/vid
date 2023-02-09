@@ -131,7 +131,7 @@ window.addEventListener('scroll', reveal);
 // });
 
 $('.numm').counterUp({
-  delay: 10,
+  delay: 5,
   time: 2000,
 });
 $('.numm').addClass('animated fadeInDownBig');
