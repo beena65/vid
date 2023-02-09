@@ -867,6 +867,7 @@ footer {
   font-size: 18px;
   margin: 0;
   font-family: 'HK GROTESK';
+  line-height: 1.5;
 }
 
 .footer-distributed p span {
@@ -927,6 +928,7 @@ footer {
   font-family: 'Lora', serif;
   font-size: 15px;
   text-transform: capitalize;
+  line-height: 1.5;
 }
 
 .footer-distributed .footer-center p span {
