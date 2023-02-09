@@ -2153,6 +2153,7 @@ img {
     text-transform: capitalize !important;
     word-break: break-word;
     width: 230px;
+    line-height: 1.5;
   }
   .footer-distributed .footer-center p a {
     color: #ffffff;
