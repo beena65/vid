@@ -811,7 +811,7 @@ button::after {
 /* BREAKPOINTS ----- */
 @media screen and (max-width: 767px) {
   .tabs {
-    min-height: 600px !important;
+    min-height: 650px !important;
   }
 }
 
