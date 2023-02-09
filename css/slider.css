@@ -925,6 +925,7 @@ footer {
   margin: 0;
   font-family: 'Lora', serif;
   font-size: 15px;
+  text-transform: capitalize;
 }
 
 .footer-distributed .footer-center p span {
@@ -2129,6 +2130,7 @@ img {
 
   .footer-center {
     text-align: left !important;
+    width: 100% !important;
   }
   .footer-distributed .footer-center i {
     background-color: #ff572280;
@@ -2145,7 +2147,7 @@ img {
   .footer-distributed .footer-center p {
     font-size: 12px !important;
     font-weight: 300;
-    text-transform: lowercase !important;
+    text-transform: capitalize !important;
   }
   .footer-distributed .footer-center p a {
     color: #ffffff;

@@ -114,7 +114,7 @@ window.addEventListener('scroll', reveal);
 // });
 
 let valueDisplays = document.querySelectorAll('.numm');
-let interval = 500;
+let interval = 50;
 
 valueDisplays.forEach((valueDisplay) => {
   let startValue = 0;
