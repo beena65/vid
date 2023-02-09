@@ -2234,6 +2234,11 @@ img {
     font-weight: 600;
     font-size: 20px !important;
   }
+
+  .numm {
+    animation-duration: 1s;
+    animation-delay: 0s;
+  }
   span.texty {
     color: #050206;
     font-size: 15px !important;
@@ -2339,8 +2344,10 @@ span.numm {
   color: #050206;
   display: grid;
   place-items: center;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 3em;
+  line-height: 1.1;
+  font-family: 'Lora', serif;
 }
 span.texty {
   color: #050206;

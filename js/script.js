@@ -113,19 +113,26 @@ window.addEventListener('scroll', reveal);
 //   counter('count4', 110, 40, 1000);
 // });
 
-let valueDisplays = document.querySelectorAll('.numm');
-let interval = 5;
+// let valueDisplays = document.querySelectorAll('.numm');
+// let interval = 5;
 
-valueDisplays.forEach((valueDisplay) => {
-  let startValue = 0;
-  let endValue = parseInt(valueDisplay.getAttribute('data-val'));
-  // console.log(endValue);
-  let duration = Math.floor(interval / endValue);
-  let counter = setInterval(function () {
-    startValue += 1;
-    valueDisplay.textContent = startValue;
-    if (startValue == endValue) {
-      clearInterval(counter);
-    }
-  }, duration);
+// valueDisplays.forEach((valueDisplay) => {
+//   let startValue = 0;
+//   let endValue = parseInt(valueDisplay.getAttribute('data-val'));
+//   // console.log(endValue);
+//   let duration = Math.floor(interval / endValue);
+//   let counter = setInterval(function () {
+//     startValue += 1;
+//     valueDisplay.textContent = startValue;
+//     if (startValue == endValue) {
+//       clearInterval(counter);
+//     }
+//   }, duration);
+// });
+
+$('.numm').counterUp({
+  delay: 10,
+  time: 2000,
 });
+$('.numm').addClass('animated fadeInDownBig');
+$('.texty').addClass('animated fadeIn');
